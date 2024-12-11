@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background-color: #8198ca;
+    font-family: Arial, sans-serif;
+}
+
+
+.content {
+    border-radius: 8px;
+    margin: 50px 320px;
+    background-color: white;
+}
+
+/*BARRA TOPO*/
+.barraTopo {
+    padding: 20px 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    display: flex;
+    justify-content: right;
+    background-color: #e4ebfa;
+}
+
+#botaoConfig{
+    font-family: "Roboto";
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: #3d3bee;
+    margin: 0px 5px 0px;
+    margin-right:26px;
+    margin-top: 10px;
+    padding:5px 0px;
+    height: auto;
+}
+#botaoConfig:hover{
+    background-color: #7d7de0;
+    cursor: pointer;
+}
+#cog{
+    width: 40%;
+}
+
+
+/* CADASTRO */
+#headerCadastro {
+    margin-bottom: 20px;
+    font-family: "Roboto";
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+#headerAtualizacao {
+    margin-bottom: 20px;
+    font-family: "Roboto";
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.cadCampo{
+    display: flex;
+    flex-direction: column; 
+    align-items: left; 
+    padding: 3px 0px;
+}
+
+.attCampo{
+    display: flex;
+    flex-direction: column; 
+    align-items: left; 
+    padding: 3px 0px;
+}
+
+#cadastroF {
+    font-family: "Roboto";
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 5px;
+}
+
+#botaoSubmit{
+    font-family: "Roboto";
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: #3d3bee;
+    margin: 0px 5px 0px;
+    margin-right:26px;
+    margin-top: 13px;
+    padding:15px 30px;
+}
+#botaoSubmit:hover{
+    background-color: #7d7de0;
+    cursor: pointer;
+}
+
+#botaoSubmitAtt{
+    font-family: "Roboto";
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: #3d3bee;
+    margin: 0px 5px 0px;
+    margin-left:20px;
+    padding:15px 30px;
+}
+#botaoSubmitAtt:hover{
+    background-color: #7d7de0;
+    cursor: pointer;
+}
+/* FORMULÁRIOS */
+.forms{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.form {
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #8085ff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.attF {
+    font-family: "Roboto";
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #8085ff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+/* LISTA CADASTROS */
+.lista {
+    font-family: "Roboto";
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    border: 1px solid #8085ff;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.lista .linha {
+    font-family: "Roboto";
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-bottom: 1px solid #eaeaea;
+    font-size: 16px;
+    color: #333;
+}
+
+.delete{
+    font-family: "Roboto";
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: #3d3bee;
+    margin: 0px 5px 0px;
+    padding:0px 10px;
+}
+.delete:hover{
+    background-color: #7d7de0;
+    cursor:pointer;
+}

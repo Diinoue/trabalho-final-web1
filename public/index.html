@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="content">
+    <!-- Barra superior -->
+    <div class="barraTopo">
+
+        <div class="parteDireita">
+            <button id="botaoConfig"><img id="cog" src="public/options.png"> </button>
+        </div> <!-- Fim parteDireita -->
+    </div> <!-- Fim barraTopo -->
+
+
+    <!-- INÍCIO FORMS-->
+     <div class="forms">
+    <!-- Formulário de cadastro -->
+    <div class="form">
+        <header id="headerCadastro">CADASTRO</header>
+        <form id="cadastroF" method="post">
+            <div id="cadNome" class="cadCampo">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome"/>
+            </div>
+
+            <div id="cadSobrenome" class="cadCampo">
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" id="sobrenome" name="sobrenome"/>
+            </div>
+            <div id="cadEmail" class="cadCampo">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email"/>
+            </div>
+
+            <div id="cadSenha" class="cadCampo">
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha"/>
+            </div>
+
+            <div id="cadConfirmaSenha" class="cadCampo">
+                <label for="confirmaSenha">Confirme a senha:</label>
+                <input type="password" id="confirmaSenha" name="confirmaSenha"/>
+            </div>
+
+            <button type="submit" id="botaoSubmit" class="cadCampo">ENVIAR</button>
+        </form>
+    </div>
+
+
+    <!-- Formulário de atualização-->
+    <div class="form" id="formAtualizacao">
+        <header id="headerAtualizacao">ATUALIZAÇÃO</header>
+        <form id="updateF" method="post">
+            <div id="attId" class="attCampo">
+                <label for="uId">Digite o id:</label>
+                <input type="number" id="uId" name="id"/>
+            </div>
+            <div id="attNome" class="attCampo">
+                <label for="uNome">Nome:</label>
+                <input type="text" id="uNome" name="nome"/>
+            </div>
+            <div id="attSobrenome" class="attCampo">
+                <label for="uSobrenome">Sobrenome:</label>
+                <input type="text" id="uSobrenome" name="sobrenome"/>
+            </div>
+            <div id="attEmail" class="attCampo">
+                <label for="uEmail">E-mail:</label>
+                <input type="email" id="uEmail" name="email"/>
+            </div>
+            <div id="attSenha" class="attCampo">
+                <label for="uSenha">Senha:</label>
+                <input type="password" id="uSenha" name="senha"/>
+            </div>
+            <div id="attConfirmaSenha" class="attCampo">
+                <label for="uConfirmaSenha">Confirme a senha:</label>
+                <input type="password" id="uConfirmaSenha" name="confirmaSenha"/>
+            </div>
+            <button type="submit" id="botaoSubmitAtt" class="cadCampo">ENVIAR</button>
+        </form>
+    </div>
+
+</div>
+<!-- Lista de itens -->
+<div class="lista"></div>
+</div>
+
+
+</body>
+<script src="script.js"></script>
+</html>

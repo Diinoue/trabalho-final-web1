@@ -1,0 +1,13 @@
+DROP DATABASE IF EXISTS listaCadastros;
+CREATE DATABASE listaCadastros;
+USE listaCadastros;
+
+CREATE TABLE IF NOT EXISTS users (
+    id INT AUTO_INCREMENT NOT NULL PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    sobrenome VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    senha VARCHAR(255) NOT NULL
+);
+
+SHOW TABLES;
